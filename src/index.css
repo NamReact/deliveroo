@@ -359,10 +359,11 @@ header {
   font-weight: 300;
   color: #2e3333;
   width: 60%;
+  padding-left: 10px;
 }
 
 .basket-menu-total {
-  width: 15%;
+  width: 20%;
   text-align: right;
   font-size: 14px;
   font-weight: 300;
@@ -395,7 +396,7 @@ header {
   font-size: 14px;
   color: #2e3333;
   font-weight: 600;
-  margin: 20px 0;
+  margin: 20px 5px;
 }
 
 /* POP UP */

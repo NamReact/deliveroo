@@ -77,14 +77,14 @@ class App extends React.Component {
       count = count - 1;
     }
     const popupTotal = (count * this.state.storedMenu.price) / 100;
-    this.setState({ quantity: count, popupPrice: popupTotal });
+    this.setState({ quantity: count, popupPrice: popupTotal.toFixed(2) });
   };
 
   add = () => {
     let count = this.state.quantity;
     count = count + 1;
     const popupTotal = (count * this.state.storedMenu.price) / 100;
-    this.setState({ quantity: count, popupPrice: popupTotal });
+    this.setState({ quantity: count, popupPrice: popupTotal.toFixed(2) });
   };
 
   /* *** Closing the pop up *** */
@@ -328,7 +328,10 @@ class App extends React.Component {
             quantity={this.state.quantity}
             title={this.state.storedMenu.title}
             menuDescription={this.state.storedMenu.description}
-            price={this.state.popupPrice || this.state.storedMenu.price / 100}
+            price={
+              this.state.popupPrice ||
+              (this.state.storedMenu.price / 100).toFixed(2)
+            }
             img={undefined || this.state.storedMenu.picture}
             click={this.basket}
             cancel={this.close}
@@ -393,7 +396,7 @@ class App extends React.Component {
 
                       <div className="basket-description">{order.title}</div>
                       <div className="basket-menu-total">
-                        {order.totalPrice + " €"}
+                        {order.totalPrice.toFixed(2) + " €"}
                       </div>
                     </div>
                   );
@@ -401,7 +404,7 @@ class App extends React.Component {
               </div>
               <div className="total-basket">
                 <div>Total</div>
-                <div>{this.state.totalBasketPrice + " €"}</div>
+                <div>{this.state.totalBasketPrice.toFixed(2) + " €"}</div>
               </div>
             </div>
           </div>
