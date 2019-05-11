@@ -303,6 +303,8 @@ header {
   margin: 5px 0;
   height: 73%;
   width: 100%;
+  position: relative;
+  top: -15px;
 }
 
 .basket-div {
