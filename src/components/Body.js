@@ -2,7 +2,6 @@ import React from "react";
 import Menu from "./Menu";
 import Category from "./Category";
 import axios from "axios";
-import Menu2 from "./Menu2";
 
 class Body extends React.Component {
   state = {
@@ -18,26 +17,14 @@ class Body extends React.Component {
               <Category category={menuCat} />
               <div className="menu-body">
                 {this.state.menu.menu[menuCat].map(item => {
-                  if (item.picture) {
-                    return (
-                      <Menu
-                        key={item.id}
-                        id={item.id}
-                        menu={item.title}
-                        menuDescription={item.description}
-                        price={item.price}
-                        menuImg={item.picture}
-                        click={this.props.click}
-                      />
-                    );
-                  }
                   return (
-                    <Menu2
-                      id={item.id}
+                    <Menu
                       key={item.id}
+                      id={item.id}
                       menu={item.title}
                       menuDescription={item.description}
                       price={item.price}
+                      menuImg={item.picture}
                       click={this.props.click}
                     />
                   );

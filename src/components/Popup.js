@@ -5,7 +5,11 @@ const Popup = props => {
     <div className="popupMenu">
       <div className="popup-inside-container">
         <div>
-          <img className={props.noImg} src={props.img} alt={props.title} />
+          <img
+            style={{ display: props.img ? "block" : "none" }}
+            src={props.img}
+            alt={props.title}
+          />
         </div>
         <h3>{props.title}</h3>
         <div className="description-popup">{props.menuDescription}</div>
