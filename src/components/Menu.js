@@ -3,9 +3,17 @@ import React from "react";
 const Menu = props => {
   return (
     <div className="menu-container" onClick={props.click} id={props.id}>
-      <div>
-        <h4>{props.menu}</h4>
-        <div className="description">{props.menuDescription}</div>
+      <div className="menu-sub-section">
+        <div>
+          <h4>{props.menu}</h4>
+          <div
+            className="description"
+            style={{ display: props.menuDescription ? "block" : "none" }}
+          >
+            {props.menuDescription}
+          </div>
+        </div>
+
         <div className="price">{props.price + "€"}</div>
       </div>
 
