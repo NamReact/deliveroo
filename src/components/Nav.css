@@ -1,0 +1,22 @@
+/* TOP NAV */
+
+.nav-background {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e8ebeb;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  max-width: 1124px;
+  margin: 0 auto;
+  padding: 5px 0;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 110px;
+  height: auto;
+}

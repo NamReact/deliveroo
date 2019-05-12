@@ -1,4 +1,5 @@
 import React from "react";
+import "./Popup.css";
 
 const Popup = props => {
   return (
@@ -15,11 +16,11 @@ const Popup = props => {
         <div className="description-popup">{props.menuDescription}</div>
         <div className="popup-count">
           <div className="popup-button" onClick={props.remove}>
-            -
+            <i class="fas fa-minus-circle" />
           </div>
           <span>{props.quantity}</span>
           <div className="popup-button" onClick={props.add}>
-            +
+            <i class="fas fa-plus-circle" />
           </div>
         </div>
         <div className="checkout-popup">

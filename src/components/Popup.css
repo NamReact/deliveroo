@@ -1,0 +1,110 @@
+/* POP UP */
+
+.popup {
+  display: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(33, 33, 33, 0.5);
+  z-index: 3;
+}
+
+.popupMenu {
+  padding: 30px;
+  width: 575px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 4;
+  box-sizing: border-box;
+}
+
+.popup-inside-container {
+  box-sizing: border-box;
+}
+
+.popup-inside-container h3 {
+  margin-bottom: 15px;
+}
+
+.description-popup {
+  width: 100%;
+  font-size: 14px;
+  line-height: 19px;
+  margin-right: 10px;
+  color: #828585;
+  margin-bottom: 15px;
+}
+
+.popup-count {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+
+.popup-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #59ccbc;
+  height: 30px;
+  width: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.popupMenu img {
+  height: auto;
+  width: 100%;
+}
+
+.checkout-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.closePopup {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #ffffff;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.cancel {
+  width: 30%;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: #59ccbc;
+  border: 1px solid #59ccbc;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 50px;
+  background-color: #59ccbc;
+  color: white;
+  font-weight: 700;
+  border-radius: 2px;
+  cursor: pointer;
+}

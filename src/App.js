@@ -207,7 +207,7 @@ class App extends React.Component {
 
     for (let i = 0; i < allOrder.length; i++) {
       if (allOrder[i].id === menuId) {
-        if (allOrder[i].quantity === 0) {
+        if (allOrder[i].quantity === 1) {
           /* If quantity is 0 then the object is taken out of the array */
 
           allOrder.splice(i, 1);
@@ -225,7 +225,7 @@ class App extends React.Component {
 
     /* In case the basket is empty, the code switch back the display of both baskets */
 
-    if (allOrder.length === 1) {
+    if (allOrder.length === 0) {
       eBasket.style.display = "block";
       bBasket.classList.remove("basket-buying-container");
       bBasket.classList.add("none");
@@ -382,7 +382,7 @@ class App extends React.Component {
                           onClick={this.removeBasket}
                           id={order.id}
                         >
-                          -
+                          <i class="fas fa-minus-circle" />
                         </div>
                         <div className="basket-number">{order.quantity}</div>
                         <div
@@ -390,7 +390,7 @@ class App extends React.Component {
                           onClick={this.addBasket}
                           id={order.id}
                         >
-                          +
+                          <i class="fas fa-plus-circle" />
                         </div>
                       </div>
 

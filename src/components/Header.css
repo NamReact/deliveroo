@@ -1,0 +1,36 @@
+/* HEADER */
+
+.header-background {
+  background-color: #ffffff;
+  border-top: 1px solid #e8ebeb;
+  border-bottom: 1px solid #e8ebeb;
+}
+
+header {
+  display: flex;
+  max-width: 1124px;
+  margin: 10px auto;
+  padding: 20px 0;
+}
+
+.header-description {
+  width: 765px;
+}
+
+.header-description p {
+  color: #828585;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.img-container {
+  width: 360px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.header-img {
+  height: auto;
+  max-width: 100%;
+}
