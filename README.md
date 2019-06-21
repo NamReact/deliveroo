@@ -1,4 +1,4 @@
-![Overview](https://user-images.githubusercontent.com/49146106/59909520-25701200-9410-11e9-931b-c8357a6ee4c3.png)
+![Overview](https://user-images.githubusercontent.com/49146106/59909750-bd6dfb80-9410-11e9-8019-cd5342ea1dda.png)
 
 # Project Name
 
