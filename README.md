@@ -50,4 +50,4 @@ Project is _finished_.
 
 ## Inspiration
 
-Design and functionalities of this project are inspired based on [official deliveroo website](https://deliveroo.fr/fr/).
+Design and functionalities of this project are based on [official deliveroo website](https://deliveroo.fr/fr/).
