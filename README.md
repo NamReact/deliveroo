@@ -1,13 +1,12 @@
 ![Overview](https://user-images.githubusercontent.com/49146106/59909977-3a997080-9411-11e9-9c13-732e1ca23413.png)
 
-# Project Name
+# Deliveroo
 
-> Here goes your awesome project description!
+> A simple page of a British food delivery service.
 
 ## Table of contents
 
 - [General info](#general-info)
-- [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Features](#features)
@@ -17,48 +16,38 @@
 
 ## General info
 
-Add more general information about project. What the purpose of the project is? Motivation?
-
-## Screenshots
-
-![Example screenshot](./img/screenshot.png)
+Project done during training to learn about some basic React.js concepts such as fetching data in `componentDidMount()`,state management, components focused programming...
 
 ## Technologies
 
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- axios - version 0.18.1
+- React.js - version 16.8.6
 
 ## Setup
 
-Describe how to install / setup your local environement / add link to demo version.
+Clone the repository then install the dependencies using `npm install`.
 
-## Code Examples
+Make sure nothing is running on your port 3000.
 
-Show examples of usage:
-`put-your-code-here`
+Use `npm start`to launch the website.
+
+You can also visit the demo website :
+
+(https://deliveroo-training.herokuapp.com/)
 
 ## Features
 
-List of features ready and TODOs for future development
+- A pop up appears when you click on a menu.
 
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+![Popup-menu](https://user-images.githubusercontent.com/49146106/59911191-a4b31500-9413-11e9-8797-f132c4d677db.png)
 
-To-do list:
-
-- Wow improvement to be done 1
-- Wow improvement to be done 2
+- The cart update itself.
+- Scroll to the chosen category using the navigation bar.
 
 ## Status
 
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is _finished_.
 
 ## Inspiration
 
-Add here credits. Project inspired by..., based on...
-
-## Contact
-
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Design and functionalities of this project are inspired based on [official deliveroo website](https://deliveroo.fr/fr/).
