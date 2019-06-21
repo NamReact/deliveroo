@@ -33,7 +33,7 @@ Use `npm start`to launch the website.
 
 You can also visit the demo website :
 
-(https://deliveroo-training.herokuapp.com/)
+https://deliveroo-training.herokuapp.com/
 
 ## Features
 
